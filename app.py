@@ -1,4 +1,4 @@
-from flask import Flasks
+from flask import Flask
 from views.items import item_blueprint
 
 app = Flask(__name__)
